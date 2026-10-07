@@ -3,79 +3,9 @@
 # (usually in src/host/loader_services.cpp) before the game will start.
 # symbol | needed by
 AppendLangExt(char (&) [255], LocaleMasks) | psmysteryphraze.so
-Debug_Flag_Set(char const*, char const*) | psmysteryphraze.so
-ScreenIsTouched() | psmysteryphraze.so
-MeritthonDisplayRound(int, int, int, unsigned long) | psmysteryphraze.so
 t_i_l() | psmysteryphraze.so
-u_m_m_s(char const*, char*, char*, unsigned int) | psmysteryphraze.so
-QueFlush(bool) | psmysteryphraze.so
-VideoClass::RemoveFromVBZ(unsigned long) | psmysteryphraze.so
-WorldClass::ClearScreen() | psmysteryphraze.so
-WorldClass::CopyCompBitmap(Bitmap*, int, int, int, int, int, int, int, int, int, int, bool) | psmysteryphraze.so
-WorldClass::LoadBmp(char const*, int, float, int, int, bool, bool, Bitmap*) | psmysteryphraze.so
-WorldClass::ShowAll() | psmysteryphraze.so
-WorldClass::WorldClass() | psmysteryphraze.so
 SystemClass::Delay(int) | psmysteryphraze.so
-system_info::Get_Motherboard_Type() | psmysteryphraze.so
-xml_gamerandom::PICRAND_record::PICRAND_record() | psmysteryphraze.so
-xml_gamerandom::PICRAND_record::~PICRAND_record() | psmysteryphraze.so
-xml_gamerandom::MystPICRAND_record::AdjustTime(int, long) | psmysteryphraze.so
-xml_gamerandom::MystPICRAND_record::MystPICRAND_record(xml_gamerandom::MystPICRAND_record const&) | psmysteryphraze.so
-xml_gamerandom::MystPICRAND_record::MystPICRAND_record() | psmysteryphraze.so
-xml_gamerandom::MystPICRAND_record::~MystPICRAND_record() | psmysteryphraze.so
-xml_gamerandom::MystPICRAND_record::operator=(xml_gamerandom::MystPICRAND_record const&) | psmysteryphraze.so
 HighScoresManager::PlayerName(int) | psmysteryphraze.so
-abstract_metadata::abstract_metadata(char const*, db_common_field_def const*, int, char const*, db_common_index_def const*, int, char const* const*, int, bool) | psmysteryphraze.so
-abstract_xml_record::AdjustTimeFields(int, long) | psmysteryphraze.so
-abstract_xml_record::abstract_xml_record(abstract_xml_record const&) | psmysteryphraze.so
-abstract_xml_record::abstract_xml_record() | psmysteryphraze.so
-abstract_xml_record::~abstract_xml_record() | psmysteryphraze.so
-RandomizedArrayClass::SetBookMark(unsigned char) | psmysteryphraze.so
-RandomizedArrayClass::GetNextValue(int) | psmysteryphraze.so
-RandomizedArrayClass::GotoBookMark(unsigned char) | psmysteryphraze.so
-RandomizedArrayClass::RandomizedArrayClass(xml_gamerandom::PICRAND_record*, int, unsigned char, unsigned short*) | psmysteryphraze.so
-RandomizedArrayClass::~RandomizedArrayClass() | psmysteryphraze.so
-Books::LogCategoryPlays(xml_gameinfo::GameIds, int, int) | psmysteryphraze.so
-Books::Credits(xml_gameinfo::GameIds, enums::Span) | psmysteryphraze.so
-Books::Instance() | psmysteryphraze.so
 USBIO::FoundUSB() | psmysteryphraze.so
-Bitmap::CopyFromVB(int, int, int) | psmysteryphraze.so
-Bitmap::ConvertSmack(unsigned char) | psmysteryphraze.so
-Bitmap::CreateSmackTextBox(char const*, FontBase*, signed char, unsigned short, unsigned short, bool) | psmysteryphraze.so
-Bitmap::CreateColoredTextBoxTTFS(char const*, int, int, int, int, int, int, int, int, int, bool, char*, int) | psmysteryphraze.so
-Bitmap::CData(int) | psmysteryphraze.so
-Bitmap::GreyBmp() | psmysteryphraze.so
-Bitmap::Compress(bool, int, unsigned short*) | psmysteryphraze.so
-Bitmap::setCData(unsigned short*) | psmysteryphraze.so
-Bitmap::DrawtoVBZ(int, int, int) | psmysteryphraze.so
-Bitmap::freeCData() | psmysteryphraze.so
-Sprite::AssignString(String*, unsigned long) | psmysteryphraze.so
-Sprite::Enable(unsigned long) | psmysteryphraze.so
-Sprite::Disable(unsigned long, bool) | psmysteryphraze.so
-Sprite::SetCord(float, float, float, unsigned long) | psmysteryphraze.so
-Sprite::SetSize(int, int) | psmysteryphraze.so
-Sprite::Sprite(Bitmap*, unsigned long, Sprite*) | psmysteryphraze.so
-String::String(char const*, int, char const*, int, signed char, int, int, int, unsigned char, unsigned char, unsigned short) | psmysteryphraze.so
-DBFClass::SetEncryption(bool) | psmysteryphraze.so
-DBFClass::OpenDBF(char const*) | psmysteryphraze.so
-DBFClass::GetRecord(int) | psmysteryphraze.so
-DBFClass::nGetField(unsigned int, char*, unsigned int, bool) | psmysteryphraze.so
-DBFClass::DBFClass() | psmysteryphraze.so
 NVRAMMap::SetGameOption(xml_gameoptions::GameOptionIndex, unsigned char) | psmysteryphraze.so
-Settings::Init() | psmysteryphraze.so
-Settings::Load() | psmysteryphraze.so
-Settings::Cleanup() | psmysteryphraze.so
-Settings::Restore(abstract_xml_record const*) | psmysteryphraze.so
-Settings::Settings(char const*, unsigned int) | psmysteryphraze.so
-Settings::~Settings() | psmysteryphraze.so
-xml_gamerandom::MystPICRAND_record::operator!=(xml_gamerandom::MystPICRAND_record const&) const | psmysteryphraze.so
-Settings::Key(unsigned int, bool) const | psmysteryphraze.so
-typeinfo for abstract_record | psmysteryphraze.so
-typeinfo for abstract_xml_record | psmysteryphraze.so
-typeinfo for Settings | psmysteryphraze.so
-typeinfo for xml_gamerandom::MystPICRAND_record | psmysteryphraze.so
-vtable for DOSLinuxWorld | psmysteryphraze.so
 _alemu_strupr | psmysteryphraze.so
-clear_bitmap | psmysteryphraze.so
-gfx_driver | psmysteryphraze.so
-screen | psmysteryphraze.so
